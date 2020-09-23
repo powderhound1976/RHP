@@ -7,20 +7,17 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
     integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
-    integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/main.css" />
   <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet" />
   <script src="https://kit.fontawesome.com/5b707415b6.js" crossorigin="anonymous"></script>
   <title>Rent to Own Homes Pro</title>
-</head>
 
 <body id="index">
   <nav class="shadow navbar navbar-expand-sm navbar-light bg-white">
     <div class="container">
       <a href="index.html" class="navbar-brand">
-        <img src="/RHP_logo/RHP_logo_vector.png" class="logo" alt="Rent Own Homes Pro Logo" />
+        <img src="RHP_logo/RHP_logo_vector.png" class="logo" alt="Rent Own Homes Pro Logo" />
       </a>
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
@@ -37,7 +34,7 @@
             <a href="#prop" class="nav-link">Properties</a>
           </li>
           <li class="nav-item">
-            <a href="#blog" class="nav-link">Blog</a>
+            <a href="#blog" class="nav-link">FAQ</a>
           </li>
           <li class="nav-item">
             <a href="#main-footer" class="nav-link">Contact</a>
@@ -54,162 +51,194 @@
         <h1 class="showcase display-2 heavy">Get Instant Access Now!</h1>
         <h3 class="showcase lead display-4">Over 100k Rent-to-Own Homes.</h3>
         <br />
-        <button type="button" class="btn btn-lg btn-danger shadow" data-toggle="modal"
-          data-target="#exampleModalCenter">
-          <div class="row">
-            <div class="col"><i class="fas fa-3x fa-search-location"></i></div>
-            <div class="col">Enter your zip code </br> Search for your new home now!</div>
-          </div>
-        </button>
-        <br />
-      </div>
-    </div>
-  </div>
+        <div class="col-6">
+          <form action="">
+            <div class="input-group my-4 height">
+              <div class="input-group-prepend">
+                <span class="input-group-text"><i class="fas fa-1x fa-search-location"></i></span>
+              </div>
+              <input type="text" class="form-control" id="group-username-1" placeholder="Enter City Name or ZipCode">
+              <div class="input-group-append">
+                <button type="button" class="btn btn-green text-uppercase ">submit</button>
+              </div>
 
-  <!--Logo Icons  -->
-  <div id="startHere" class="container p-3">
-    <div class="row pm-0">
-      <div class="col text-right">
-        <img class="logo" src="/img/nortoncert.png" alt="" />
-      </div>
-      <div class="col text-center">
-        <img class="logo" src="/img/mcafeelogo.png" alt="" />
-      </div>
-      <div class="col text-left">
-        <img class="logo" src="/img/Truste-Logo.png" alt="" />
+            </div>
+          </form>
+        </div>
       </div>
     </div>
   </div>
 
   <!-- About -->
-  <div id="home-heading">
-    <div class="jumbotron jumbotron-fluid dark-overlay">
+  <div id="why">
+    <div class="jumbotron jumbotron-fluid">
       <div class="container" id="">
         <h2 class="display-4 logoGreen text-left">Why you should rent to own!</h2>
-        <h2 class="lead text-left">The advantage of a rent to own agreement is that it gives the
-          buyer a chance to "try out" the house with no obligation to
-          purchase while progressively turning your rent into a
-          down payment. You can get to know your neighborhood while
-          building a history of payments improving your credit rating and
-          also your chances to qualify for a conventional mortgage.</h2>
+        <p class="lead text-left">A main advantage of a rent-to-own agreement is that it gives the buyer a chance to
+          "try out" the house with no obligation to purchase while progressively turning your rent into a down payment.
+          You can get to know your neighborhood while building a history of payments improving your credit rating and
+          also your chances to qualify for a conventional mortgage.</p>
+      </div>
+      <div class="container">
+        <h2 class="display-5 logoGreen text-left">Other reasons for considering renting-to-own a home:</h2>
+        <ul class="text-left lead">
+          <li class="li">Allows a potential buyer who may not have the capital needed to buy a house</li>
+          <li class="li">If you find something seriously wrong with the house, you can walk away from the contract.</li>
+          <li class="li">During the rental period, the owner is still responsible for repairs, upgrades and regular
+            maintenance of the home.</li>
+          <li class="li">A rent-to-own locks in the purchase price but you get to enjoy home appreciation right away.
+          </li>
+          <li class="li">You can maintain privacy while renting since you’re not listed as the purchaser on any public
+            records until the closing takes place.</li>
+          <li class="li">Renting the home you eventually buy reduces the cost and inconvenience of moving after a few
+            years.</li>
+        </ul>
       </div>
     </div>
   </div>
 
-  <!-- Properties -->
-  <div id="prop" class="container py-5">
-    <header>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 m-auto text-center">
-            <h1>Properties</h1>
-          </div>
-        </div>
+  <!-- How it works -->
+  <div id="home-heading">
+    <div class="jumbotron jumbotron-fluid dark-overlay">
+      <div class="container" id="">
+        <h2 class="logoGreen text-left">How Rent-to-Own Works:</h2>
+        <ul class="text-left display-5 lead">
+          <li class="li list-unstyled">Step 1: Formulate a realistic picture of your credit and finances</li>
+          <li class="li list-unstyled">Step 2: Browse our lease-to-own home listings inventory online to find your dream
+            home.</li>
+          <li class="li list-unstyled">Step 3: Consult with the seller about the property and schedule a viewing.</li>
+          <li class="li list-unstyled">Step 4: Do your research - look into the homeowner and property history.</li>
+          <li class="li list-unstyled">Step 5: Get an independent professional home inspector to do a full inspection.
+          </li>
+          <li class="li list-unstyled">Step 6: Hire a qualified real estate attorney to explain the contract and help
+            you understand
+            your rights and obligations.</li>
+          <li class="li list-unstyled">Step 7: Negotiate the terms of the lease option.</li>
+          <li class="li list-unstyled">Step 8: Pay an option fee and sign the contract.</li>
+        </ul>
       </div>
-    </header>
-    <section id="info" class="">
-      <div class="container ">
-        <div class="album py-5 ">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-4">
-                <div class="card mb-4 box-shadow shadow card-height">
-                  <img class="card-img-top" src="/img/home1.jpg" />
-                  <div class="card-body">
-                    <h2>$489 per month!</h2>
-                    <h4>3 Bed, 2 Bath</h4>
-                    <p class="card-text">
-                      Exquisite Single Family Home
-                      1,350 Sqft in a good school district. Open space, air conditioning, great floor plan! Spacious
-                      backyward with well maintained lawn. Lots of trees and plenty of space for your kids.
-                    </p>
-                    <ul class="card-text list-unstyled">
-                      <li>Address: </li>
-                      <li>123 Main St</li>
-                      <li>Salt Lake City, UT 84055</li>
-                    </ul>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-success">
-                          Learn More
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="card mb-4 box-shadow shadow card-height">
-                  <img class="card-img-top" src="/img/home2.jpg" />
-                  <div class="card-body">
-                    <h2> $689 per month!</h2>
-                    <h4>3 Bed, 2 Bath</h4>
-                    <p class="card-text">
-                      Spacious Home with Great Park Views
-                      1860 Sqft with paved walkways and wooden cabinetry. This home is located on a tree lined street in
-                      a
-                      quiet cul-de-sac. Lots of trees and plenty of space for your kids.
-                    </p>
-                    <ul class="card-text list-unstyled">
+    </div>
+  </div>
 
-                      <li>Address:</li>
-                      <li>123 Main St</li>
-                      <li>Salt Lake City, UT 84055</li>
-                    </ul>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-success">
-                          Learn More
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="card mb-4 box-shadow shadow card-height">
-                  <img class="card-img-top" src="/img/home3.jpg" />
-                  <div class="card-body">
-                    <h2> $1080 per month!</h2>
-                    <h4>5 Bed, 2 Bath</h4>
-                    <p class="card-text">
-                      Modern Home with All the Amenities
-                      2860 Sqft with an updated kitchen and granite countertops perfect for entertaining your family and
-                      guests. Working fireplace and ceiling fans to save on electricity.
-                    </p>
-                    <ul class="card-text list-unstyled">
-
-                      <li>Address:</li>
-                      <li>123 Main St</li>
-                      <li>Salt Lake City, UT 84055</li>
-                    </ul>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-success">
-
-                          Learn More
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+  <!-- Start of Property section -->
+  <section id="prop" class="py-5">
+    <div class="container">
+      <!-- title -->
+      <header>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 m-auto text-center">
+              <h2>Properties</h2>
             </div>
           </div>
         </div>
+      </header>
+      <!-- end of title -->
+      <div class="row">
+        <!-- property -->
+        <div class="col-md-6 col-lg-4 my-3 d-flex">
+          <div class="card box-shadow shadow card-height">
+            <img src="./img/property1.jpg" alt=" member" class="card-img-top">
+            <div class="card-body flex-fill">
+              <h4 class="card-title text-dark font-weight-bolder text-capitalize">Exquisite Single Family Home</h4>
+              <hr>
+              <p class="card-text">
+                Home is in a good school district. Open space, air conditioning, great floor plan! Spacious
+                backyward with well maintained lawn.
+              </p>
+              <ul class="card-text list-unstyled">
+                <li>Address:</li>
+                <li>1955 Magic Drive</li>
+                <li>Ogden UT 84444</li>
+              </ul>
+              <ul class="card-text">
+                <li>$1,895/month</li>
+                <li>1,350 sqft</li>
+                <li>3 bedrooms/2 baths/3-car garage</li>
+              </ul>
+
+
+            </div>
+            <button type="button" class="btn btn-lg btn-success text-uppercase">
+              more details
+            </button>
+          </div>
+        </div>
+        <!-- end of property -->
+        <!-- property -->
+        <div class="col-md-6 col-lg-4 my-3 d-flex">
+          <div class="card box-shadow shadow card-height">
+            <img src="./img/property2.jpg" alt=" member" class="card-img-top">
+            <div class="card-body flex-fill">
+              <h4 class="card-title text-dark font-weight-bolder text-capitalize">Spacious Home with Great Park Views
+              </h4>
+              <hr>
+              <p class="card-text">
+                Paved walkways and wooden cabinetry. This home is located on a tree lined street in a quiet cul-de-sac.
+                Lots of trees and plenty of space for your kids.
+              </p>
+
+              <ul class="card-text list-unstyled">
+                <li>Address:</li>
+                <li>2013 Happy Lane</li>
+                <li>South Ogden, UT 84000</li>
+              </ul>
+              <ul class="card-text">
+                <li>$1,689/month</li>
+                <li>1,860 sqft</li>
+                <li>3 bedrooms/3 baths/2-car garage</li>
+              </ul>
+            </div>
+            <button type="button" class="btn btn-lg btn-success text-uppercase">
+              more details
+            </button>
+          </div>
+        </div>
+        <!-- end of property -->
+        <!-- property -->
+        <div class="col-md-6 col-lg-4 my-3 d-flex">
+          <div class="card box-shadow shadow card-height">
+            <img src="./img/property3.jpg" alt=" member" class="card-img-top">
+            <div class="card-body flex-fill">
+              <h4 class="card-title text-dark font-weight-bolder text-capitalize">Exquisite Single Family Home</h4>
+              <hr>
+              <p class="card-text">
+                Updated kitchen and granite countertops perfect for entertaining your family and guests. Working
+                fireplace and ceiling fans to save on electricity.
+              </p>
+              <ul class="card-text list-unstyled">
+                <li>Address:</li>
+                <li>1994 Easy Street</li>
+                <li>North Ogden UT 84414</li>
+              </ul>
+              <ul class="card-text list-unstyled">
+                <li>$2,150/month</li>
+                <li>2,860 Sqft</li>
+                <li>4 Bedrooms/4 baths/2-car garage</li>
+              </ul>
+            </div>
+            <button type="button" class="btn btn-lg btn-success text-uppercase">
+              more details
+            </button>
+          </div>
+        </div>
+        <!-- end of property -->
+
       </div>
-    </section>
-  </div>
+    </div>
+  </section>
+  <!-- end of properties section -->
+
 
   <!-- Testimonials -->
-  <div class="shadow">
+  <section class="shadow">
     <div id="video-play">
       <div id="carouselExampleControls" class="carousel slide dark-overlay carousel-fix" data-ride="carousel">
         <header class=" head-padding-fix">
           <div class="container">
             <div class="row">
               <div class="col-md-6 m-auto text-center">
-                <h1>Testimonials</h1>
+                <h2>Testimonials</h2>
               </div>
             </div>
           </div>
@@ -220,7 +249,7 @@
               <div class="card py-5  bg-transparent border-fix">
                 <div class="row no-gutters">
                   <div class="col-md-4">
-                    <img src="/img/headshot2.jpg" class="card-img p-3 rounded-circle" style="max-width: 300px;"
+                    <img src="img/eric_jones.jpg" class="card-img p-3 rounded-circle" style="max-width: 300px;"
                       alt="...">
                   </div>
                   <div class="col-md-8">
@@ -240,7 +269,7 @@
               <div class="card py-5  bg-transparent border-fix">
                 <div class="row no-gutters">
                   <div class="col-md-4">
-                    <img src="/img/headshot3.jpg" class="card-img p-3 rounded-circle" style="max-width: 300px;"
+                    <img src="img/clair_young.jpg" class="card-img p-3 rounded-circle" style="max-width: 300px;"
                       alt="...">
                   </div>
                   <div class="col-md-8">
@@ -260,7 +289,27 @@
               <div class="card py-5 bg-transparent border-fix">
                 <div class="row no-gutters">
                   <div class="col-md-4">
-                    <img src="/img/headshot4.jpg" class="card-img p-3 rounded-circle" style="max-width: 300px;"
+                    <img src="img/amelia_gibson.jpg" class="card-img p-3 rounded-circle" style="max-width: 300px;"
+                      alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body text-left">
+                      <p class="card-text lead">"RentOwnHomesPro.com helped me turn my rent payments into home
+                        ownership.
+                        I improved my credit rating and even qualified for a great mortgage!"</p>
+                      <p class="card-text">-Eric Jones</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <div class="card py-5 bg-transparent border-fix">
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img src="img/dameon_davis.jpg" class="card-img p-3 rounded-circle" style="max-width: 300px;"
                       alt="...">
                   </div>
                   <div class="col-md-8">
@@ -286,50 +335,132 @@
         </a>
       </div>
     </div>
-  </div>
-  </div>
+  </section>
 
-  <!-- BLOG-->
-  <div id="blog" class="container py-5 my-3">
+  <!-- FAQ-->
+  <section id="blog" class="container py-5 my-3">
     <header>
+      <div class="col-md-10  text-left">
+        <h2 class="py-5">Frequently Asked Questions:</h2>
+
+      </div>
       <div class="container">
-        <div class="row">
-          <div class="col-md-6 m-auto text-center">
-            <h1>Our Blog</h1>
-          </div>
-        </div>
+        <p class="lead text-left">The rent-to-own process can create many emotions and feelings. One of the best ways to
+          ensure
+          the process is not overwhelming is to be well educated and properly prepared for the process. Here are the top
+          frequently asked questions about renting to own a home.</p>
       </div>
     </header>
-    <section class="py-3 ">
-      <div class="container py-5">
-        <div class="row">
-          <div class="col">
-            <div class="card box-shadow shadow">
-              <div class="blog-img">
-                <img src="img/front_door.jpg" alt="" id="rectangular" class=" img-fluid ">
-              </div>
+
+    <div class="container py-5">
+      <div class="bs-example">
+        <div class="accordion" id="accordionExample">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0">
+                <button type="button" class="btn btn-link text-decoration-none" data-toggle="collapse"
+                  data-target="#collapseOne">1. Can I
+                  rent
+                  to own with poor credit?</button>
+              </h2>
+            </div>
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
               <div class="card-body">
-                <h4 class="card-title">Rent-to-Own Homes, Explained</h4>
-                <small class="text-muted">By Saundra Latham</small><br>
-                <small class="text-muted">Oct 29, 2019</small>
-                <hr>
-                <p class="card-text">What if there was a way to combine the pros of renting and owning? Some say a
-                  rent-to-own deal is that happy medium. When you rent to own, part of your rent goes toward
-                  purchasing the home you’re renting at some later date. So instead of evaporating into thin air, your
-                  rent is actually laying a foundation for your future — literally. For the right buyer and seller, a
-                  rent-to-own deal can be a win-win. This article spells out conditions in which renting to own is
-                  most beneficial to buyers vs sellers
+                <p>Having a less-than-stellar credit score can get in the way of many things, including home ownership.
+                  However, bad credit does not mean you can't get the home of your dreams. The good thing about a rent
+                  to own agreement is that you can move into a house right away, with several years to work on improving
+                  your credit score and/or saving for a down payment.</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h2 class="mb-0">
+                <button type="button" class="btn btn-link collapsed text-decoration-none" data-toggle="collapse"
+                  data-target="#collapseTwo">2. Can I rent to own without a down payment?</button>
+              </h2>
+            </div>
+            <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body">
+                <p>Typically, in a rent-to-own agreement, the tenant/potential buyer can move into a house right away.
+                  But It's not as simple as paying rent and then one day owning the home. There are different terms and
+                  conditions which must be met, in accordance with the negotiated agreement.
                 </p>
               </div>
             </div>
-
           </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h2 class="mb-0">
+                <button type="button" class="btn btn-link collapsed text-decoration-none" data-toggle="collapse"
+                  data-target="#collapseThree">3. Will my down payment and monthly rent be credited back to me if I
+                  decide not to purchase the property at the end of the lease period?</button>
+              </h2>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body">
+                <p>No, unfortunately the down payment and monthly rent is nonrefundable.</p>
+              </div>
+            </div>
+          </div>
+          <!-- item -->
+          <div class="card">
+            <div class="card-header" id="headingFour">
+              <h2 class="mb-0">
+                <button type="button" class="btn btn-link collapsed text-decoration-none" data-toggle="collapse"
+                  data-target="#collapseFour">4. Who pays the home insurance and real estate tax during the lease
+                  period?</button>
+              </h2>
+            </div>
+            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+              <div class="card-body">
+                <p>The seller maintains full insurance and pays the property taxes, HOA dues and other necessary fees.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- end item -->
+          <!-- item -->
+          <div class="card">
+            <div class="card-header" id="headingFive">
+              <h2 class="mb-0">
+                <button type="button" class="btn btn-link collapsed text-decoration-none" data-toggle="collapse"
+                  data-target="#collapseFive">5. Do rent-to-own homes allow me to bring my pets?</button>
+              </h2>
+            </div>
+            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+              <div class="card-body">
+                <p>Most properties will allow you to have pets, but is specified in the agreements. Sometimes sellers
+                  will ask for "pet rent" to be added to the monthly rent. "Pet rent" can vary from $5-20 per month.</p>
+              </div>
+            </div>
+          </div>
+          <!-- end item -->
+          <!-- item -->
+          <div class="card">
+            <div class="card-header" id="headingSix">
+              <h2 class="mb-0">
+                <button type="button" class="btn btn-link collapsed text-decoration-none" data-toggle="collapse"
+                  data-target="#collapseSix">6. Do appliances and furniture usually come with a rent-to-own
+                  home?</button>
+              </h2>
+            </div>
+            <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+              <div class="card-body">
+                <p>Most of the time, furniture isn’t included with a lease/option purchase. Generally, the basic
+                  appliances are there – like a refrigerator, stove, oven, and sometimes extras, like a dishwasher, a
+                  washer and a dryer. Parts of a property that are installed or attached – like the heating system and
+                  air conditioning – are definitely included.</p>
+              </div>
+            </div>
+          </div>
+          <!-- end item -->
         </div>
       </div>
-  </div>
-  </section>
-  </div>
+    </div>
+    </div>
 
+  </section>
   <!-- SECOND SEARCH -->
   <div id="home-heading">
     <div class="jumbotron jumbotron-fluid dark-overlay">
@@ -345,7 +476,7 @@
 
   <!-- FOOTER -->
   <footer id="main-footer" class="text-center p-4">
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <div class="col-lg-2">
           <a href="index.html" class="navbar-brand">
@@ -397,7 +528,7 @@
       </div>
     </div>
   </div>
-
+  <script src="js/all.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
